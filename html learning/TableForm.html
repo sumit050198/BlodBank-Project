@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link rel="stylesheet" href="TableForm.css">
+</head>
+
+<body>
+  <h2 style="display: none;" id="hi">Fill the form</h2>
+  <form action="#">
+    <div id="header">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" name="myName" id="name" />
+    </div><br>
+
+    <div>
+      <label for="role">Role</label>
+      <input type="text" name="myRole" id="role" />
+    </div><br>
+
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="myEmail" id="email" />
+    </div><br>
+    <div>
+      <label for="date">Date</label>
+      <input type="date" name="myDate" id="date" />
+    </div><br>
+    <div>
+      <label for="bonus">Bonus</label>
+      <input type="number" name="Bonus" id="bonus" />
+    </div><br>
+    
+    <div>
+      <label for="checkbox">Are you eligible?</label>
+      <input type="checkbox" name="myeligibleity" checked id="checkbox" />
+    </div><br>
+   
+    <h4>Gander</h4>
+    <div>
+      <label for="male">Male</label>
+      <input type="radio" name="myGander" id="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="myGander" id="female" />
+      <label for="other">other</label>
+      <input type="radio" name="myGander" id="other" />
+    </div><br>
+
+    <label for="write">Write about your self</label>
+    <div> <br>
+      <textarea name="myText" cols="30" rows="5" id="write"></textarea>
+    </div><br>
+   
+    <div>
+      <label for="india">India</label>
+      <select name="myIndia" id="india">
+        <option value="state" selected>State</option>
+        <option value="delhi">Delhi</option>
+        <option value="bihar">Bihar</option>
+        <option value="panjav">Panjab</option>
+      </select>
+    </div><br>
+   
+    <div>
+      <button class="btn" onclick="submitalert()">Submit Now</button>
+      <button class="btn">Reset Now</button>
+    </div>
+  </div>
+  </form>
+
+  <!-- <script>
+        function submitalert(){
+          // alert("are u secure")
+          var element=document.getElementById("hi");
+          element.innerHTML="Sucessfully Submitted"
+
+          element.style.display="block";
+        }
+  </script> -->
+</body>
+</html>

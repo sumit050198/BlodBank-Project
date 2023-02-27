@@ -1,0 +1,14 @@
+.container{
+    border: 8px solid rgb(146, 7, 7);
+}
+/* .container-fluid{
+    border: 8px solid #000;
+} */
+.row{
+    border: 6px solid rgb(133, 26, 240);
+}
+.col{
+    border: 5px solid rgb(6, 195, 6);
+    /* margin: 0px; */
+    margin-top: 5px;
+}

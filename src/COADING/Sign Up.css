@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: rgb(231, 228, 228);
+    height: 690px;
+    width: 550px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+} 
+
+#name,#email,#mobile,#password,#username,#repassword{
+    border: 2px solid white;
+    height: 20px;
+    width: 250px;
+    margin: 10px;
+    margin-left: 2px;
+    padding: 5px;
+}
+
+#male{
+    margin-top: 15px;
+}
+
+#checkboxCon{
+    margin-top: 20px;
+}
+#signUp{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding: auto;
+    font-size: 20px;
+    /* border-block-color: red; */
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(66, 57, 82);
+    border-color: rgb(8, 243, 169);
+}
+#signIn{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding: auto;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(66, 57, 82);
+    border-color: rgb(8, 243, 169);
+}

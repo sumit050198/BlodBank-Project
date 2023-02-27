@@ -1,0 +1,22 @@
+.contianer{
+    border: 5px solid black;
+}
+.row{
+    border: 5px solid red;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.col{
+    border: 5px solid yellow;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+    font-size: 30px;
+    
+    padding: 5px 0px 5px 0px;
+    margin:5px 0px 5px 0px;
+    ;
+}

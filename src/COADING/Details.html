@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Details.css">
+    <!-- <link rel="stylesheet" href="Home.html"> -->
+</head>
+<body>
+    <!-- <script defer src="Details.js"></script> -->
+    <div id="h2"><h2>Employee Details Form</h2></div>
+    <div id="navmain">
+        <ul id="nav">
+            <li><a href="Home.html" class="border" id="home">HOME</a></li></a>
+            <li><a href="#" class="border" id="setting">SETTING</a></li>
+            <li><a href="#" class="border" id="all details">ALL DETAILS</a></li>
+            <!-- <p>Click on the Menu Icon to transform it to "X":</p> -->
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+             </div>
+        </ul>
+    </div>
+
+    <form action="mysql.sql">
+    <div id="bordermain">
+        <!-- <div id="main"> -->
+        <div id="pInfo"><h3>personal Information</h3></div>
+        <div id="main">
+            <div id="main1">
+        <div id="myfName">
+        <label for="name">Name</label><br>
+        <input autofocus type="text" required name="myfName" id="name" placeholder="first name">
+    </div>
+    
+         <div id="mylName">
+        <label for="lname"></label><br>
+        <input type="text" required name="mylName" id="lname" placeholder="last name">
+        </div>
+
+    <div id="myDob">
+        <label for="dob">Birth Date</label><br>
+        <input type="date" required name="myDob" id="dob">
+    </div>
+</div>
+    
+    <div id="main2">
+    <div id="myAdd">
+        <label for="address">Address</label><br>
+        <input type="text" required name="myAdd" id="address" placeholder="* Requred address...">
+    </div>
+</div>
+
+    <div id="main3">
+    <div id="mystreetAdd">
+        <label for="streetadd">Street Address</label><br>
+        <input type="text" name="mystreetAdd" id="streetadd" placeholder="">
+    </div>
+</div>
+    
+<div id="main4">
+    <div id="myCity">
+        <label for="city">City</label><br>
+        <input type="text" required name="myCity" id="city" placeholder="">
+    </div>
+
+    <div id="myState">
+        <label for="state">State</label><br>
+        <input type="text" required name="myState" id="state" placeholder="">
+    </div>
+
+    <div id="myPostal">
+        <label for="postcode">Post Code</label><br>
+        <input type="text" required name="myPostal" id="postcode">
+    </div>
+</div>
+
+    <div id="main5">
+    <div id="myNumber">
+        <label for="number">Phone Number</label><br>
+        <input type="number" required name="myNumber" id="number">
+    </div>
+
+    <div id="myEmail">
+        <label for="email">E-mail</label><br>
+        <input type="text" required name="myEmail" id="email" placeholder="example@example.com">
+    </div>
+</div>
+
+<div id="main6">
+      <div id="myImage">
+        <label for="image-imput">Attach image</label><br>
+        <input type="file" required name="myImage" id="image-imput" accept="/*" placeholder="drag and drop files hare">
+       <div id="igbtn">
+        <button id="submitbtn" type="submit">btn</button>
+        <img id="previewimg">
+        </div>
+      </div>
+ </div>
+
+    <div id="myBtn">
+        <button type="submit" id="btn">Submit</button>
+    </div>
+    
+    <!-- </div> -->
+    </div>
+</form>       
+</div>
+<!-- <script src="Details.js"></script> -->
+</body>
+</html>

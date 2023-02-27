@@ -1,0 +1,80 @@
+
+ .main{
+    width: 1500px;
+    height: 720px;
+    /* margin-left: auto;
+    margin-right: auto;  */
+     background-color: rgb(231, 228, 228);
+    /* border: 3px solid black; */
+    height: 470px;
+    width: 450px;
+    font-size: 20px;
+    /* text-align: center; */
+    margin: auto;
+    /* padding-top: 50px; */
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.3);
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+#username{
+    border: 2px solid white;
+    
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+    margin: 4px;
+    /* margin-left: 80px; */
+    /* margin-top: 5px; */
+    margin-bottom: 10px;
+    
+    
+}
+
+#password{
+    border: 2px solid white;
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+    margin: 4px;
+    /* margin-left: 80px; */
+    /* margin-top: 5px; */
+    margin-bottom: 10px;
+
+}
+
+#btn{
+    font-size: 17px;
+    border: 2px solid white;
+    height: 35px;
+    width: 175px;
+    margin: 10px;
+    /* margin-left: 90px; */
+    background-color: rgb(126, 178, 236);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btn:hover{
+color: black;
+background-color: rgb(87, 131, 181);
+    transform: scale(1.1);
+
+}
+ 
+#tData{
+    width: 300px;
+    /* margin-top: 10px; */
+    color: red;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}

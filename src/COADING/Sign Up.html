@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Sign Up.css">
+</head>
+<body>
+
+    <form action="backend.php">
+    <div class="main">
+        <h2>Sign Up</h2>
+
+        <div>
+            <label for="name">Name</label><br>
+            <input autofocus type="text" name="myName" id="name" placeholder="Name...">
+        </div>
+
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="myemail" id="email" placeholder="Email address...">
+        </div>
+
+        <div class="u_name">
+            <label for="username">User Name</label><br>
+        <input type="text" name="myUserName" id="username" placeholder="Username...">
+        </div>
+
+        <div class="u_passwd">
+            <label for="password">Password</label><br>
+       <input type="text" name="myPassword" id="password" placeholder="Enter password...">
+       </div>
+
+       <div class="Re_passwd">
+            <label for="repassword">Repeat Password</label><br>
+       <input type="password" name="myRePassword" id="repassword" placeholder="Repeat password...">
+       </div>
+
+       <div>
+        <label for="mobile">Mobile</label><br>
+        <input type="text" name="myMobile" id="mobile" placeholder="phone...">
+       </div>
+       
+       <div>
+            <b>Gender</b>
+            <label for="male">(Male</label>
+            <input type="radio" name="myGander" id="male"> 
+        
+            <label for="female">Female</h3></label>
+            <input type="radio" name="myGander" id="female">) 
+        </div>
+
+        <div>
+            <input type="checkbox" name="myCheckbox" id="checkboxCon">
+            <label for="checkboxCon">I agree to the Terms of User</label>
+        </div>
+
+        <div>
+            <label for="signUp"></label>
+            <input type="submit" value="Sign Up" id="signUp">
+
+            <label for="signIn"></label>
+            <input type="submit" value="Sign In" id="signIn">
+        </div>
+        
+    </div>
+</form>
+</body>
+</html>

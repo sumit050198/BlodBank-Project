@@ -1,0 +1,14 @@
+.container{
+    border: 5px solid red;
+}
+.row{
+    border: 5px solid yellow;
+    color: yellow;
+
+}
+.col{
+    border: 5px solid green;
+    color: green;
+    height: 50px;
+
+}
